@@ -16,7 +16,11 @@ public class Week1
         System.out.println(" by Nicholas Day and Derek Peacock");
         System.out.println();
 
-        String name = InputReader.getString("Enter your name > ");
-        System.out.println("Hello " + name);
-    } 
+        //String name = InputReader.getString("Enter your name > ");
+        //System.out.println("Hello " + name);
+        int num1 = InputReader.getInt ("enter num1 > ");
+        int num2 = InputReader.getInt ("enter num2 > ");
+        double average = (num1 + num2)/2;
+        System.out.println("average is " + average);
+        } 
 }
