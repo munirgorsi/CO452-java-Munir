@@ -22,5 +22,6 @@ public class Week1
         int num2 = InputReader.getInt ("enter num2 > ");
         double average = (num1 + num2)/2;
         System.out.println("average is " + average);
+        int n;
         } 
 }
